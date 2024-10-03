@@ -1,0 +1,74 @@
+Tags:
+
+documento HTML5: ! <!DOCTYPE html>
+favicon: link "link:favicon" (em minusculo)
+
+titulo: h1 <h1> </h1>
+paragrafo: p <p> </p>
+linha horizontal: hr <hr>
+quebrar texto: <br>
+exibir as tag no site: &lt; &gt;
+
+comentario: <!-- -->
+marca registrada: &reg;
+copywriting: &copy;
+emoji: &#xEMOJI;
+
+termo em destaque(negrito): strong <strong> </strong>
+termo em ênfase(italico): em <em> </em>
+texto marcado: <mark> </mark>
+texto pequeno: small <small> </small>
+texto exluido: del <del> </del>
+texto inserido: ins <ins> </ins>
+texto sobrescrito: sup <sup> </sup>
+texto subscrito sub <sub> </sub>
+fonte monoespaçada: code <code> </code>
+texto pré formatado: pre <pre> </pre>
+citação: q <q> </q>
+citação de bloco: blockquote <blockquote> </blockquote>
+explica as siglas e abreviações: abbr <abbr title=" "> </abbr>
+texto invertido bdo:r <bdo dir="rtl"> </bdo>
+trecho do texto: <span> TRECHO DO TEXTO </span>
+
+lista ordenada: ol <ol> </ol> ( <ol type=""> <li> "LISTA" </ol> ) (  type=" " start=" 1, 2, 3.." )
+lista não ordenada: ul <ul> </ul> ( <ul type=""> <li> "LISTA" </ul> ) ( type="disc" / type="circle" / type="square" )
+lista: li <li> </li>
+Lista de definição: dl <dl> </dl> ( <dl> <dt> " " </dt> </dl> ) ( <dl> <dd> " " </dd> </dl> )
+
+Termo: dt <dt> </dt> (trabalha junta da lista de definição)
+Descrição: dd <dd> </dd> (trabalha junta da lista de definição)
+
+link interno/externo/download: <a href="LINK/ARQUIVO"> "TEXTO" </a>
+link nova aba: <a href="LINK/ARQUIVO" target="_blank" rel=" "> "TEXTO" </a> ( rel="external" / rel="next" / rel="prev" / rel="author" / rel="nofollow")
+
+imagem: <img src="imagem" alt="texto explicando a imagem">
+imagem de tamanhos diferentes: <picture> TAGS </picture>
+imagem de tamanhos diferentes: <source media="(max-width:TAMANHO DA IMAGEM ANTERIOR)" srcset="IMAGEM" type="image/TIPO DE IMAGEM">
+
+audio: <audio src="AUDIO" preload="metadata" controls></audio>  (autoplay inicia a audio assim que entra no site.) (loop repete o áudio infinitamente assim que ele acaba)
+audios de formatod diferentes: <audio preload="metadata" controls> TAGS </audio>
+audios de tamanhos diferentes: <source src="AUDIO" type="audio/FORMATO DO AUDIO">
+
+video: <video src="VIDEO" width="LARGURA" height="ALTURA" poster="CAPA DO VIDEO" controls></video>   (autoplay inicia o video assim que entra no site.) (loop repete o video infinitamente assim que ele acaba)
+videos de formatod diferentes: <video width="LARGURA" height="ALTURA" poster="CAPA DO VIDEO" controls> TAGS </video>
+videos de formatod diferentes: <source src="VIDEO" type="video/FORMATO DO VIDEO">
+videos de outros locais: copiar e colar o link "incorporar"
+
+identificador unico: id="NOME DESEJADO" 
+identificador multiplo: class="NOME DESEJADO"
+Pseudo-classes: 
+agrupar elementos: <div> TAGS </div> 
+
+HTML5 semântico:
+
+seção da parte superior / cabeçalho: <header> ELEMENTOS PRINCIPAIS DA PAGINA </header>
+seção de navegação: <nav> LINKS DE NAVEGAÇÃO </nav>
+seção do conteúdo principal: <main> CONTEÚDOS PRINCIPAIS </main>
+seção do artigo: <article> CONTEÚDO </article>
+seção do conteúdo aparte: <aside> CONTEÚDO </aside>
+seção: <section> DEFINA SEÇÕES </section>
+seção do rodapé: <footer> SEÇÃO INFERIOR </footer>
+seção de detalhes e resumo: <details> SEÇÃO DO CONTEÚDO </details> / <summary> CONTEÚDO </summary>
+seção de figura: <figure> CONTEÚDO </figure> / <figcaption> DESCRIÇÃO DO CONTEÚDO </figcaption>
+seção de tempo: <time> DATA OU HORA </time>
+seção progresso: <progress> PROGRESSO DA TAREFA </progress>
